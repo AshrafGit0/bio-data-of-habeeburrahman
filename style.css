@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;0,400&family=Poppins:ital,wght@1,200&family=Roboto:ital,wght@1,100&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+    
+    
+}
+.bio{
+    background-color:white;
+    width: 70%;
+    border: 2px solid black;
+    border-radius: 10px;
+    outline: none;
+    margin: 10px 0px 0px 250px;
+    display: flex;
+    height: 740px;
+    box-shadow: 0 0 8px black;
+}
+.bio img{
+    height: 300px;
+    border: 2px solid black;
+    border-radius: 5px;
+    position: relative;
+    top: 79px;
+    left: 80%;
+    box-shadow: 0 0 4px black;
+    background-color: transparent;
+    
+
+}
+.details{
+    margin: 0;
+    position: absolute;
+    top: 40px;
+    margin-left: 50px;
+}
+p{
+    margin-top: 15px ;
+    color: black;
+    /* font-family: 'roboto', sans-serif; */
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.h{
+    margin-top: 15px;
+}
+.head{
+    text-decoration: underline;
+    margin-left: 150px;
+    margin-bottom: 15px;
+    color: blue;
+}
+.family{
+    text-decoration: underline;
+    margin-top: 15x;
+    color: blueviolet;
+}
+.first-brolaw{
+    margin-left: 60px;
+}
+.sec-brolaw{
+    margin-left: 160px;
+}
+.para{
+    margin-left: 40px;
+}
+
+@media only screen and (max-width:1130px){
+    
+    .bio{
+        margin: 10px 0px 0px 20px;
+        width: 92%;
+    }
+    .bio img{
+        height: 160px;
+        top: 15px;
+        left: 78%;
+    }
+    .details{
+        margin-left: 15px;
+    }
+    p{
+        font-size: 12px;
+        font-weight: 600;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+     }
+    .head{
+        
+        margin-left: 50px;
+    }
+    
+}
