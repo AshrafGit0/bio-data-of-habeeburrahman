@@ -78,14 +78,14 @@ p{
     }
     .bio img{
         height: 160px;
-        top: 15px;
-        left: 78%;
+        top: 10px;
+        left: 75%;
     }
     .details{
-        margin-left: 15px;
+        margin-left: 10px;
     }
     p{
-        font-size: 10px;
+        font-size: 8px;
         font-weight: 600;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
     
@@ -93,6 +93,16 @@ p{
     .head{
         
         margin-left: 50px;
+    }
+    .sec-brolaw{
+        margin-left: 100px;
+    }
+    .first-brolaw{
+        margin-left: 70px;
+    }
+    .h{
+        margin-top: 25px;
+        font-size: 16px;
     }
     
 }
